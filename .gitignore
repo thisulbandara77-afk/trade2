@@ -1,0 +1,59 @@
+# OMRIX - Git Ignore
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+/logs/*.log
+/logs/*.txt
+
+# Cache files
+/cache/*
+!/cache/.gitkeep
+
+# Session files (if file-based)
+/sessions/*
+!/sessions/.gitkeep
+
+# Uploaded files
+/uploads/*
+!/uploads/.gitkeep
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+*~
+
+# Composer (if used)
+/vendor/
+composer.lock
+
+# Node modules (if used)
+/node_modules/
+package-lock.json
+
+# Build files
+/dist/
+/build/
+
+# Test files
+/phpunit.xml
+.phpunit.result.cache
+/tests/coverage/
+
+# Sensitive configuration
+config/config.local.php
